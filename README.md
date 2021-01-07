@@ -27,5 +27,8 @@ aws lambda invoke --function-name cloudfront_prewarm --invocation-type Event --p
 done
 
 #deployment lambda function cloudfront_prewarm.py
+
 #setup lambda memory 500M~
+
 #setup lambda timeout 15m
+
