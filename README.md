@@ -5,8 +5,11 @@ cloudfront prewarm scripts
 #use shell script to invoke lambda function prewarm cloudfront
 
 #cat a.txt
+
 /www/a.txt
+
 /www/b.txt
+
 /www/c.txt
 
 for file in `cat a.txt`
