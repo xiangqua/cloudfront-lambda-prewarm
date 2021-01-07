@@ -2,9 +2,9 @@
 cloudfront prewarm scripts
 
 
-#use shell script to invoke lambda function prewarm cloudfront
+# use shell script to invoke lambda function prewarm cloudfront
 
-#cat a.txt
+# cat a.txt
 
 /www/a.txt
 
@@ -12,7 +12,7 @@ cloudfront prewarm scripts
 
 /www/c.txt
 
-#cat prewarm.sh
+# cat prewarm.sh
 
 for file in `cat a.txt`
 
@@ -26,9 +26,10 @@ aws lambda invoke --function-name cloudfront_prewarm --invocation-type Event --p
 
 done
 
-#deployment lambda function cloudfront_prewarm.py
+# deployment lambda function 
+cloudfront_prewarm.py
 
-#setup lambda memory 500M~
-
-#setup lambda timeout 15m
+# setup lambda 
+memory 500M~
+timeout 15m
 
