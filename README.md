@@ -31,5 +31,6 @@ cloudfront_prewarm.py
 
 # setup lambda 
 memory 500M~
+
 timeout 15m
 
