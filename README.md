@@ -14,7 +14,7 @@ cloudfront prewarm scripts
 
 # cat cf_prewarm.sh
 
-for file in `cat a.txt`
+for file in `cat file.txt`
 
 do
 
