@@ -12,7 +12,7 @@ cloudfront prewarm scripts
 
 /www/c.txt
 
-# cat prewarm_cf.sh
+# cat cf_prewarm.sh
 
 for file in `cat a.txt`
 
