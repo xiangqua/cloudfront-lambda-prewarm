@@ -1,6 +1,17 @@
 # cloudfront_prewarm
-cloudfront prewarm scripts
+
+cloudfront prewarm demo
+
 Pop list can get from link:https://www.feitsui.com/zh-hans/article/3
+
+serverless architecture
+
+Can be multi concurrent, multi-threaded, each file trigger a lambda for concurrent prewarm
+
+Asynchronous call
+
+View the prewarm results through cloudwatch log
+
 
 # use shell script to invoke lambda function prewarm cloudfront
 
