@@ -1,6 +1,6 @@
 # cloudfront_prewarm
 cloudfront prewarm scripts
-
+Pop list can get from link:https://www.feitsui.com/zh-hans/article/3
 
 # use shell script to invoke lambda function prewarm cloudfront
 
