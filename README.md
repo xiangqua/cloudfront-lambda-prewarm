@@ -19,11 +19,17 @@ Amazon CloudFront 是一项快速内容分发网络 (CDN) 服务，可以安全�
 
 ### 2、	在Lambda中部署预热脚本
 2.1 在控制台选择创建创建函数
+
 2.2 填入函数名称，例如：cloudfront_prewarm
+
 2.3 运行时：选择python3.7
+
 2.4 点击创建函数
+
 2.5 在函数代码区域，将代码库中的cloudfront_prewarm.py内容替换lambda_function.py的内容
+
 2.6 在基本设置中，根据实际情况编辑内存大小，例如500M，超时时间设为15分钟
+
 2.7 完成lambda函数创建
 
 ### 3、	编写本地调度脚本
